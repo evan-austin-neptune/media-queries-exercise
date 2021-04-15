@@ -10,3 +10,33 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+.header-img{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    justify-content: flex-start;
+    width: 60%;
+}
+.sub-section{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    justify-content: flex-end;
+    width: 35%;
+    margin-right: 2em;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+.container h2{
+    margin: 1em 0;
+}
+.container p{
+    margin: 1em 0;
+}
