@@ -85,7 +85,7 @@ footer{
         /*width: 100vw;*/
     }
     body{
-        padding: 5px;
+        padding: 10px;
     }
     .hidden-on-desktop{
         display: flex;
@@ -99,6 +99,13 @@ footer{
         align-items: center;
         justify-content: center;
         margin: 0;
+        padding-bottom: .5em;
+    }
+    .header-container li {
+        display: flex;
+        justify-content: center;
+        background: lightgrey;
+        padding: 15px;
     }
     .header-img img{
         width: 100%;
@@ -114,6 +121,7 @@ footer{
         /*align-items: center;*/
         /*justify-content: center;*/
     }
+
     .header-container{
         display: block;
     }
@@ -122,6 +130,16 @@ footer{
     }
     .sub-section, .main{
         width: 100%;
+    }
+    li:hover {
+        /*display: block;*/
+        background-color: whitesmoke;
+    }
+    .alert-info {
+        display: flex;
+        justify-content: center;
+        background: lightblue;
+        padding: 15px;
     }
 
 
