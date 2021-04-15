@@ -10,6 +10,22 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 ;
+}
+
+.header-container li {
+    margin: .5em;
+}
+
+.header-container h1 {
+    margin-left: 1em;
+}
+
 .header-img{
     display: flex;
     justify-content: center;
@@ -20,6 +36,8 @@
     justify-content: flex-start;
     width: 60%;
 }
+
+
 .sub-section{
     /*display: flex;*/
     /*flex-direction: column;*/
@@ -27,16 +45,23 @@
     width: 35%;
     margin-right: 2em;
 }
-.container{
+.section-container{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 1em;
 }
-.container h2{
+.section-container h2{
     margin: 1em 0;
 }
-.container p{
+.section-container p{
     margin: 1em 0;
+}
+
+@media screen and (min-width: 576px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+
 }
